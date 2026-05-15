@@ -18,7 +18,7 @@ start@{shape: circle, label: "start"}
 10@{shape: diamond, label: "numbers[i] > max"}
 11@{shape: rect, label:  "max = numbers[i]" }
 12@{shape: rect, label: "totalNumbers + numbers[i]"}
-13@{shape: rect, label : average = "totalNumbers / numbers.length"}
+13@{shape: rect, label : "average = totalNumbers / numbers.length"}
 14@{shape: lean-r, label: "{min}"}
 15@{shape: lean-r, label: "{max}"}
 16@{shape: lean-r, label: "{average}"}
