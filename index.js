@@ -1,4 +1,4 @@
-const numbers = [];
+const numbers = ["bambu"];
 function hitungAngka() {
   if(!Array.isArray(numbers)) {
     console.log("Input harus berupa array");
@@ -6,6 +6,10 @@ function hitungAngka() {
   }
 if(numbers.length === 0) {
   console.log("Array kosong");
+  return;
+}
+if(typeof numbers[0] !== "number") {
+  console.log("Input harus berupa angka");
   return;
 }
   let min = numbers[0];
