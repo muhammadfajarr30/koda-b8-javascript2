@@ -1,6 +1,9 @@
 const numbers = [];
 function hitungAngka() {
-
+  if(!Array.isArray(numbers)) {
+    console.log("Input harus berupa array");
+    return;
+  }
 if(numbers.length === 0) {
   console.log("Array kosong");
   return;
