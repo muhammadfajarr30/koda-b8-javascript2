@@ -1,7 +1,13 @@
-const numbers = [11, 21, 31, 41, 51];
-let min = numbers[0];
-let max = numbers[0];
-let totalNumbers = 0;
+const numbers = [];
+function hitungAngka() {
+
+if(numbers.length === 0) {
+  console.log("Array kosong");
+  return;
+}
+  let min = numbers[0];
+  let max = numbers[0];
+  let totalNumbers = 0;
 
 for (let i = 0; i < numbers.length; i++) {
   if (numbers[i] < min) {
@@ -15,5 +21,7 @@ for (let i = 0; i < numbers.length; i++) {
 
 average = totalNumbers / numbers.length;
 console.log(min);
-console.log(max);
+console.log(max)
 console.log(average);
+} 
+hitungAngka();
