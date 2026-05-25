@@ -1,4 +1,22 @@
-// calculateNumbers(numbers);
+
+/**
+ * @typedef {object} processedNumber
+ * @property {number} min lowest number in the element of array
+ * @property {number} max biggest number in the element of array
+ * @property {number} average the average in the element of array
+ */
+/**
+ * 
+ * @param {number[]} numbers numbers of array to be calculated 
+ * @returns {processedNumber} objects contains min, max, average
+ * @throws {error} if parameter is not an array
+ * @throws {error} if array is empty
+ * @throws {error} if element of array is not a number
+ * 
+ */
+
+
+
 function calculateNumbers(numbers) {
   if (!Array.isArray(numbers)) {
     throw new Error("Input harus berupa array");
