@@ -8,5 +8,5 @@ try {
   console.log(result.max);
   console.log(result.average);
 } catch (error) {
-  console.error(`terjadi kesalahan: ${error}`);
+  console.error(`terjadi kesalahan: ${error.message}`);
 }
